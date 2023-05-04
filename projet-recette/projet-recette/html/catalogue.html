@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/catalogue.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>Catalogues</title>
+</head>
+
+<body>
+    <div class="intro">
+        <img src="../double-hamburger-isolated-white-background-fresh-burger-fast-food-with-beef-cream-cheese.jpg" alt="">
+        <h2 class="logo">
+            <span class="logo-parts">C</span>
+            <span class="logo-parts">A</span>
+            <span class="logo-parts">T</span>
+            <span class="logo-parts">A</span>
+            <span class="logo-parts">L</span>
+            <span class="logo-parts">O</span>
+            <span class="logo-parts">G</span>
+            <span class="logo-parts">U</span>
+            <span class="logo-parts">E</span>
+        </h2>
+    </div>
+    <div class="content">
+        <nav>
+            <img class="img" src="../logo.png" alt="">
+            <div class="list_nav">
+                <a href="../html/index.html">HOME</a>
+                <a href="#cat-select">MENU</a>
+                <a href="#footer">CONTACT</a>
+            </div>
+            <i id="menu" class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="menu phoneMenu">
+            <span class="ourPages">Our pages</span>
+            <div class="list_menu">
+                <a href="../html/index.html">Home</a>
+                <a href="#ourCatalogue">Catalogue</a>
+                <a href="#footer">Contact</a>
+                <a href="#cat-select">Foods</a>
+            </div>
+        </div>
+        <div class="search" id="ourCatalogue">
+            <h1>Our Catalogues</h1>
+            <p>La présentation des recettes dans un restaurant est cruciale pour offrir une expérience culinaire satisfaisante. Les ingrédients de qualité, les techniques de cuisine et une disposition esthétique des aliments dans l'assiette sont des éléments
+                importants à mettre en avant pour susciter l'intérêt et la satisfaction des clients.</p>
+            <div class="input">
+                <label for="cat-select">les categories</label>
+                <select name="" id="cat-select">
+                    <option value="Categories">Categories</option>
+                    <option value="Entrée">Entrée</option>
+                    <option value="Plat principal">Plat principal</option>
+                    <option value="Dîner">Dîner</option>
+                    <option value="déjeuner">déjeuner</option>
+                    <option value="Petit déjeuner">Petit déjeuner</option>
+                    <option value="Plat">Plat</option>
+                </select>
+                <input type="text" placeholder="Search">
+            </div>
+
+        </div>
+        <!-- java script - recetteDB -->
+        <div id="foods" class="foods">
+
+        </div>
+
+    </div>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div class="social-icons">
+                <a href="mailto:diaakad19@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://twitter.com/your-username-here" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/your-username-here" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/your-page-link-here" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://github.com/your-username-here" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/your-profile-link-here" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+            <p>This is our website</p>
+        </div>
+    </footer>
+    <script type="module" src="../js/app.js"></script>
+    <script type="module" src="../js/catalogue.js"></script>
+</body>
+
+</html>
